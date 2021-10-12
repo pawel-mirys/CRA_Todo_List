@@ -1,3 +1,10 @@
+import { Form } from './Form/Form';
+import { List } from './List/List';
 export const App = () => {
-  return <></>;
+  return (
+    <div>
+      <Form />
+      <List />
+    </div>
+  );
 };
